@@ -18,7 +18,7 @@ public:
 
     void insert() {
         int num;
-        cout << "Enter a numbah: ";
+        cout << "Enter a number: ";
         cin >> num;
         cout << endl;
 
@@ -49,6 +49,7 @@ public:
             cout << "Queue underflow\n";
             return;
         }
-        
-    }
+        cout << "\n The element deleted from the queue is: " << queue_array[FRONT] << "\n";
+
+            }
 };
