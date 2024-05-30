@@ -20,10 +20,12 @@ class Queues {
             cout << endl;
 
             //Cek apakah antrian kosong 
-            if (FRONT == max - 1)
+            if (FRONT == max - 1) {
+                FRONT = 0;
                 REAR = 0;
-            else 
+            }
+            else {
                 REAR == REAR + 1;
+            }
         }
-        
 };
