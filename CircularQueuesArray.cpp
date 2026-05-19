@@ -84,6 +84,16 @@ public:
     }
 };
 
-int main(){
+int main() {
+    Queue q;
+    char ch;
 
+    while (true) {
+        try {
+            // Menu interface will be added here
+        } catch (exception& e) {
+            cout << "Check for the values entered." << endl;
+        }
+    }
+    return 0;
 }
